@@ -1,0 +1,17 @@
+.table-component {
+    .table-header {
+        display: flex;
+    }
+    .table-body {
+        .row {
+            display: flex;
+        }
+    }
+    .cell {
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height: 40px;
+        border: 1px solid gray;
+    }
+}
